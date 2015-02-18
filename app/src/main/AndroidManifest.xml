@@ -27,6 +27,17 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".EmployeeDetailsActivity"
+            android:label="@string/title_activity_employee_details"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:parentActivityName=".LoginActivity">
+        </activity>
     </application>
 
 </manifest>
